@@ -1,0 +1,8 @@
+Please install xampp before you proceed. 
+1. Start Apache and SQL server in xampp control panel. 
+2. Add a databse "login".
+3. Insert two tables "username" and "password"
+4. Add data in the table above: username: admin, password: root
+5. Go to localhost/ICT502/log-in.page. Done!
+
+P.S.: You can host it online in platforms such as github or better in any other hosting provider.

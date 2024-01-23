@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatib1e" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=l.0">
+<link rel="stylesheet" href="src/style.css">
+<title> Log in Page</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form" name="Login" action="authentication.php" onsubmit="return validation()" method="post" >
+        <h1 class="title">Log in</h1>
+        <div class="input-group">
+            <input type="text" id="user" name="user" class="input" autofocus placeholder="Username"> 
+        </div>
+        <div class="input-group">
+            <input type="password" id="pass" name="pass" class="input" autofocus placeholder="Password">
+        </div>
+            <button class="button">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
